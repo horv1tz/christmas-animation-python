@@ -5,16 +5,16 @@ from tree import ChristmasTree
 tree = ChristmasTree()
 
 # Установка максимально ширишы хвои
-tree.set_max_width_needles(7)
+# tree.set_max_width_needles(25)
 
 # Установка максимально ширишы ствола
-tree.set_max_width_trunk(3)
+# tree.set_max_width_trunk(7)
 
 # Отдельная отрисовка хвои
-tree.print_needles()
+# tree.print_needles()
 
 # Отдельная отрисовка ствола
-tree.print_trunk()
+# tree.print_trunk()
 
 # Отрисовка всей ёлки
-tree.print_crismass_tree()
+tree.print_christmas_tree()
